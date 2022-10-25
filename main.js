@@ -7,8 +7,13 @@ function fetchdata() {
       cache: "no-store",
     })
       .then((response) => response.json())
+
+      
       .then((slipObj) => (textArea.innerText = slipObj.slip.advice));
   }
+
+const load = true; 
+load ? fetchdata() : null // first time load
 
 button.addEventListener("click", fetchdata);
 

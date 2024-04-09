@@ -84,6 +84,11 @@ body {
   padding: 0 10px;
 }
 
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 #btn {
   background: #ff4742;
   border: 1px solid #ff4742;
@@ -92,18 +97,16 @@ body {
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
-  display: inline-block;
   font-size: 16px;
   font-weight: 800;
   line-height: 16px;
-  min-height: 40px;
-  margin-left: 180px;
-  margin-top: 15px;
+  margin-top: 16px;
   outline: 0;
   padding: 12px 14px;
   text-align: center;
   user-select: none;
 }
+
 #btn:hover {
   background-color: initial;
   background-position: 0 0;
